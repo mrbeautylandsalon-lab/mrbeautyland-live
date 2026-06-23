@@ -93,7 +93,7 @@ export default function Offers() {
               style={{
                 background: offer.bg,
                 borderColor: "rgba(184,155,122,0.2)",
-                ringColor: offer.featured ? "#B89B7A" : "transparent",
+              
               }}
               initial={{ opacity: 0, y: 40 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}

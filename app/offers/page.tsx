@@ -172,7 +172,7 @@ export default function OffersPage() {
                 style={{
                   background: plan.bg,
                   borderColor: plan.featured ? "#B89B7A" : "rgba(214,194,174,0.3)",
-                  ringColor: "#B89B7A",
+                  
                   transform: plan.featured ? "scale(1.03)" : "scale(1)",
                 }}
                 initial={{ opacity: 0, y: 40 }}
